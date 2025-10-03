@@ -1,0 +1,23 @@
+# サイトの基本情報
+title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト
+description: 書籍『ExcelとRで学ぶビジネスデータサイエンス入門』の公式サポートページです。CSVデータやRスクリプト，訂正情報などを公開します。
+
+# GitHub Pagesのテーマ
+theme: minima
+
+# リポジトリ名に合わせた baseurl
+baseurl: "/business-data-science-excel-r"
+
+# 著者情報
+author:
+  name: "吉田 靖"
+ 
+# Markdownエンジン
+markdown: kramdown
+
+# ナビゲーション（オプション）
+# minima テーマでは header_pages に指定した Markdown をメニューに表示できます
+header_pages:
+  - index.md
+  - data/README.md
+  - scripts/README.md
