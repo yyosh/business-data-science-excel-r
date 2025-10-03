@@ -1,25 +1,35 @@
-# scripts ディレクトリについて
+# ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートリポジトリ
 
-このディレクトリには、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』** の読者向けに提供する  
-Rスクリプトを配置しています。
+このリポジトリは、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』** の読者向けに  
+掲載しているデータ（CSVファイル）やRスクリプト、訂正情報・補足資料を提供するためのものです。  
+
 ---
 
-## 📂 収録ファイル
-- `Rscript_Chaps9-14.R`  
- 
+## 📌 サポートサイト
+👉 [サポートサイトはこちら](https://yyosh.github.io/business-data-science-excel-r/)  
+（見やすいWebページ形式で、データやスクリプトの使い方を解説しています）
+
 ---
 
-## 🚀 実行方法
+## 📂 ディレクトリ構成
+- `/data` : 演習用データ（CSVファイル、データ説明READMEあり）  
+- `/scripts` : Rスクリプト（演習用コード、READMEあり）  
+- `/docs` : 訂正情報・補足資料（READMEあり）  
+- `/index.md` : GitHub Pages のトップページ  
 
-### 方法1: ローカルで実行
-1. 本リポジトリを右上の **「Code → Download ZIP」** からダウンロードして解凍  
-2. RStudioで解凍したフォルダを開く  
-3. `Rscript_Chaps9-14.R` を開いて、行ごとに実行、または「Source」ボタンで一括実行  
+---
 
-### 方法2: GitHub Pagesから直接読み込む（データ利用時）
-Rコード内で、CSVを直接Webから読み込むことも可能です。  
+## 🚀 使い方
+1. **ZIPでまとめて入手**  
+   - 右上の「Code → Download ZIP」で一括ダウンロード  
+2. **個別に取得**  
+   - 各フォルダからファイルをクリック → 「Download」  
+
+Rで直接読み込む場合は以下のように利用できます：
+
 ```r
 library(readr)
 base <- "https://yyosh.github.io/business-data-science-excel-r"
-df <- read_csv(paste0(base, "/data/sample1.csv"))
-head(df)
+
+condo <- read_csv(paste0(base, "/data/condo.csv"))
+df_train <- read_csv(paste0(base, "/data/df_train.csv"))
