@@ -46,7 +46,7 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 ### 🔹 訂正情報・補足資料
 <a href="docs/nme_2025.pdf" download>📝 訂正情報（PDF版）をダウンロード</a><br>
 <a href="docs/chap_13_supplementary.pdf" download>📝 補足資料（PDF版）をダウンロード</a>
----
+
 
 ## 📚 フォルダ構成
 
