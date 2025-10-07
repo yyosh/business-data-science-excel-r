@@ -47,11 +47,11 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポ�
 ---
 
 ## 📑 訂正・補足情報
-本書の訂正情報（正誤表）は以下のPDFでご確認ください。  
-👉 [訂正情報（PDF）](./docs/errata.pdf)
+本書の訂正情報は次のPDFでご確認ください。  
+👉 [訂正情報（PDF）](./docs/nme_2025.pdf)
 
 本書の第13章の補足情報です。  
-👉 [補足情報（PDF）](./docs/chap_13_supplementary.pdf)
+👉 [第13章補足情報（PDF）](./docs/chap_13_supplementary.pdf)
 
 ---
 
