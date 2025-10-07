@@ -50,8 +50,8 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 
 ## 📚 フォルダ構成
 
-- data/ ... CSVデータ（例：condo.csv, stock.csv, df_train.csv）
+- data/ ... CSVデータ（stock.csv, condo.csv, df_train.csv）
 - scripts/ ... Rスクリプト（Rscript_Chaps9-14.R）
-- docs/ ... 訂正情報PDFなど
+- docs/ ... 訂正情報・補足資料PDFなど
 - assets/ ... 画像ファイル・CSSファイル
 - index.md ... GitHub Pages用トップページ
