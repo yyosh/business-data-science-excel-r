@@ -28,7 +28,7 @@
 ---
 
 ## 📂 フォルダ構成
-- `data/`：CSVデータ（例：condo.csv, stock.csv, df_train.csv）  
+- `data/`：CSVデータ（例： stock.csv, condo.csv, df_train.csv）  
 - `scripts/`：Rスクリプト（Rscript_Chaps9-14.R）  
 - `docs/`：訂正情報PDFなど  
 - `assets/`：画像ファイル  
