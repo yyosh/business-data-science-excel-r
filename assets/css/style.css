@@ -1,7 +1,7 @@
 /* =========================================
-   GitHub Pages 最終統一デザイン版 CSS
-   日本語フォント統一＋青系アクセント＋文字サイズ統一
-   for 'ExcelとRで学ぶビジネスデータサイエンス入門'
+   GitHub Pages 完成版 CSS
+   日本語フォント統一＋青系アクセント＋レスポンシブ対応
+   for 『ExcelとRで学ぶビジネスデータサイエンス入門』
    ========================================= */
 
 /* --- 全体設定 --- */
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #0d2b63;
 }
 
-/* メインタイトル（中央配置＋青下線） */
+/* メインタイトル（中央・青ライン） */
 h1 {
   text-align: center;
   font-size: 28px;
@@ -35,7 +35,7 @@ h1 {
   margin-bottom: 1.5em;
 }
 
-/* 中見出し・小見出し（階層差を抑えて統一感を出す） */
+/* 中・小見出し */
 h2 {
   font-size: 21px;
   border-bottom: 1px solid #cbd6ec;
@@ -126,4 +126,65 @@ img {
   border-top: 1px solid #ddd;
   padding-top: 1em;
   text-align: center;
+}
+
+/* =========================================
+   ▼ レスポンシブデザイン（スマホ／タブレット対応）
+   ========================================= */
+
+/* --- タブレット（最大幅768px） --- */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 0 1em;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  table {
+    font-size: 15px;
+  }
+  pre, code {
+    font-size: 15px !important;
+  }
+}
+
+/* --- スマートフォン（最大幅480px） --- */
+@media (max-width: 480px) {
+  body {
+    font-size: 15.5px;
+    line-height: 1.8;
+    padding: 0 0.8em;
+  }
+  h1 {
+    font-size: 22px;
+    border-bottom: 2px solid #2f63b3;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  pre, code {
+    font-size: 14.5px !important;
+  }
+  table {
+    font-size: 14px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  img {
+    margin: 0.5em auto;
+  }
 }
