@@ -21,7 +21,7 @@ title: データファイルの解説
 
 ## 📖 データの出典
 - stock.csv　S&P Global Capital IQ
-- condo.csv 　国土交通省　不動産情報ライブラリ　https://www.reinfolib.mlit.go.jp/　
+- condo.csv 　国土交通省　不動産情報ライブラリ　https://www.reinfolib.mlit.go.jp/
 - df_train.csv　 R のopenintro パッケージ。　詳細はp.180の R コマンドhelp(loans full schema) を実行して参照してください。
 ---
 
