@@ -42,7 +42,7 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポ�
 
 - [Rscript_Chaps9-14.R](./scripts/Rscript_Chaps9-14.R)  
 
-👉 解説は [スクリプトのREADME](./scripts/README.md) に掲載しています。  
+👉 詳細は [スクリプトのページ](./scripts/README.md)をご覧ください。    
 
 ---
 
