@@ -1,4 +1,4 @@
-# ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートリポジトリ
+## ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートリポジトリ
 
 本リポジトリは、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）** の読者向けサポートページです。  
 本書で使用しているデータ（CSVファイル）、Rスクリプト、訂正・補足情報を公開しています。
@@ -28,9 +28,9 @@
 ---
 
 ## 📂 フォルダ構成
-- `data/`：CSVデータ（例： stock.csv, condo.csv, df_train.csv）  
+- `data/`：CSVデータ（stock.csv, condo.csv, df_train.csv）  
 - `scripts/`：Rスクリプト（Rscript_Chaps9-14.R）  
-- `docs/`：訂正情報PDFなど  
+- `docs/`：訂正情報・補足資料など  
 - `assets/`：画像ファイル  
 - `index.md`：GitHub Pages用トップページ  
 
