@@ -1,35 +1,31 @@
 # ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートリポジトリ
 
-このリポジトリは、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』** の読者向けに  
-掲載しているデータ（CSVファイル）やRスクリプト、訂正情報・補足資料を提供するためのものです。  
+本リポジトリは、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）** の読者向けサポートページです。  
+演習用データ（CSVファイル）、Rスクリプト、訂正情報を公開しています。
 
 ---
 
-## 📌 サポートサイト
-👉 [サポートサイトはこちら](https://yyosh.github.io/business-data-science-excel-r/)  
-（見やすいWebページ形式で、データやスクリプトの使い方を解説しています）
+## 🌐 公開サイト（GitHub Pages）
+
+📎 サポートサイトはこちら  
+➡️ **[https://yyosh.github.io/business-data-science-excel-r/](https://yyosh.github.io/business-data-science-excel-r/)**
+
+書籍の内容紹介やデータの説明、訂正情報などをまとめています。
 
 ---
 
-## 📂 ディレクトリ構成
-- `/data` : 演習用データ（CSVファイル、データ説明READMEあり）  
-- `/scripts` : Rスクリプト（演習用コード、READMEあり）  
-- `/docs` : 訂正情報・補足資料（READMEあり）  
-- `/index.md` : GitHub Pages のトップページ  
+## 📘 書籍情報
+
+<a href="https://www.kspub.co.jp/book/detail/5411339.html" target="_blank" rel="noopener">
+  <img src="./assets/images/bdser-cover.jpg" alt="書籍カバー" width="240px" style="border:1px solid #ccc; border-radius:6px;">
+</a>
+
+- 書名：**ExcelとRで学ぶビジネスデータサイエンス入門**  
+- 出版社：講談社サイエンティフィク  
+- ISBN：978-4-06-5411339-5  
+- 出版社ページ：[こちらをクリック](https://www.kspub.co.jp/book/detail/5411339.html)
 
 ---
 
-## 🚀 使い方
-1. **ZIPでまとめて入手**  
-   - 右上の「Code → Download ZIP」で一括ダウンロード  
-2. **個別に取得**  
-   - 各フォルダからファイルをクリック → 「Download」  
+## 📂 フォルダ構成
 
-Rで直接読み込む場合は以下のように利用できます：
-
-```r
-library(readr)
-base <- "https://yyosh.github.io/business-data-science-excel-r"
-
-condo <- read_csv(paste0(base, "/data/condo.csv"))
-df_train <- read_csv(paste0(base, "/data/df_train.csv"))
