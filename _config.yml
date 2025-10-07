@@ -1,22 +1,29 @@
+# サイト全体の基本設定
 title: "ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト"
-description: "『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）の読者向け補足資料・データ・Rスクリプトを公開するサポートページです。"
+description: "『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）の読者向けに、演習用データ、Rスクリプト、訂正情報などを提供します。"
 theme: minima
 
-# サイトの公開URL
+# 公開URL（GitHub Pages）
 url: "https://yyosh.github.io"
 baseurl: "/business-data-science-excel-r"
 
-# ヘッダーメニューに表示するページ
+# ヘッダーに表示するページ
 header_pages:
   - index.md
   - data/README.md
   - scripts/README.md
   - docs/README.md
+  - publisher.md     # ← 出版社ページへのリンク（内部ページ）
 
-# 日本語でも文字化けしないように
+# エンコーディング
 encoding: "utf-8"
 
-# Markdown拡張機能
+# Markdownエンジン設定
 markdown: kramdown
 kramdown:
   input: GFM
+
+# サイトの見た目調整（オプション）
+show_excerpts: true
+permalink: pretty
+timezone: Asia/Tokyo
