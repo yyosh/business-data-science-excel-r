@@ -1,5 +1,6 @@
 /* =========================================
-   Web書籍風カスタムスタイル（日本語フォント統一）
+   最終デザイン版 CSS
+   統一フォント・中央タイトル・青系アクセント
    for GitHub Pages (minima)
    ========================================= */
 
@@ -15,40 +16,42 @@ body {
   max-width: 900px;
 }
 
-/* --- 見出し調整 --- */
+/* --- 見出し --- */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Sans JP", "游ゴシック体", "Yu Gothic", sans-serif;
   font-weight: 600;
-  color: #111;
-  margin-top: 1.8em;
-  margin-bottom: 0.6em;
   line-height: 1.5;
+  margin-top: 1.8em;
+  margin-bottom: 0.7em;
+  color: #0d2b63; /* 落ち着いた青系 */
 }
 
+/* メインタイトル（中央・下線付き） */
 h1 {
-  font-size: 26px;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 6px;
+  text-align: center;
+  font-size: 28px;
+  border-bottom: 3px solid #2f63b3;
+  padding-bottom: 10px;
+  margin-bottom: 1.5em;
 }
+
+/* 中見出し（左寄せ・淡い罫線） */
 h2 {
   font-size: 22px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #cbd6ec;
   padding-bottom: 4px;
 }
+
+/* 小見出し */
 h3 {
   font-size: 19px;
 }
-h4 {
-  font-size: 17px;
-}
 
-/* --- 段落 --- */
+/* --- 段落・リスト --- */
 p {
   margin-top: 0.8em;
   margin-bottom: 0.8em;
 }
-
-/* --- リスト --- */
 ul, ol {
   font-size: 17px;
   margin-left: 1.5em;
@@ -60,48 +63,60 @@ ul, ol {
 table {
   border-collapse: collapse;
   font-size: 16px;
-  margin: 1em 0;
+  margin: 1.2em 0;
+  width: 100%;
 }
 th, td {
   border: 1px solid #ddd;
   padding: 6px 10px;
 }
 th {
-  background-color: #f7f7f7;
+  background-color: #f5f8ff;
 }
 
-/* --- コード・引用 --- */
+/* --- コードブロック --- */
 code, pre {
   font-family: "Consolas", "Source Code Pro", monospace;
   font-size: 15px;
-  background-color: #f9f9f9;
-  padding: 2px 4px;
-  border-radius: 4px;
-  color: #444;
+  background-color: #f8f8f8;
+  color: #333;
+  border-radius: 5px;
 }
 pre {
   padding: 10px;
   overflow-x: auto;
+  border-left: 4px solid #c8d8f0;
 }
 
 /* --- リンク --- */
 a {
-  color: #005bbb;
+  color: #2f63b3;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: #003f88;
+  color: #174a96;
 }
 
-/* --- ページタイトルの間隔調整 --- */
+/* --- 画像中央配置 --- */
+img {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- ページ余白調整 --- */
 .page-content {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-/* --- フッター文字小さめに統一 --- */
+/* --- フッター --- */
 .site-footer {
   font-size: 14px;
   color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
+  text-align: center;
 }
