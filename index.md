@@ -1,57 +1,56 @@
 ---
-layout: page
-title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト
+layout: default
+title: ExcelとRで学ぶビジネスデータサイエンス入門
 ---
 
-## ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト
+# ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト
 
-本サイトは書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』** の公式サポートページです。  
-本書で使用しているデータ（CSVファイル）やRスクリプト、訂正情報・補足資料などを公開し、学習をサポートします。  
-
----
-
-## 📘 書籍情報
+<div align="center">
+  <img src="assets/images/bdser-cover.jpg" alt="ExcelとRで学ぶビジネスデータサイエンス入門 表紙" width="300px" style="border-radius:10px; box-shadow:0 0 6px rgba(0,0,0,0.2); margin:15px;">
+</div>
 
 <p align="center">
-  <a href="https://www.kspub.co.jp/book/detail/5411339.html" target="_blank" rel="noopener">
-    <img src="{{ '/assets/images/bdser-cover.jpg' | relative_url }}" 
-         alt="『ExcelとRで学ぶビジネスデータサイエンス入門』書籍カバー" 
-         style="max-width: 320px; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.kspub.co.jp/book/detail/5411339.html" target="_blank" rel="noopener">
-    出版社（講談社サイエンティフィク）公式ページはこちら
+  <a href="https://www.kspub.co.jp/book/detail/5411339.html" target="_blank" style="background-color:#2f63b3; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:600;">
+    📘 出版社ページへ（講談社サイエンティフィク）
   </a>
 </p>
 
 ---
 
-## 📂 データ（CSVファイル）
+## 📖 このサイトについて
 
-- [stock.csv](./data/stock.csv)　（株価データ例）  
-- [condo.csv](./data/condo.csv)　（不動産データ：UTF-8）  
-- [df_train.csv](./data/df_train.csv)　（第13章で使用）
+本サイトは、書籍  
+**『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）**  
+の読者向けサポートページです。  
 
-👉 詳細は [データ解説ページ](./data/README.md) をご覧ください。  
-
----
-
-## 📜 Rスクリプト
-
-- [Rscript_Chaps9-14.R](./scripts/Rscript_Chaps9-14.R)  
-
-👉 詳細は [スクリプトのページ](./scripts/README.md)をご覧ください。    
+書籍中で使用している **データ（CSV）**、**Rスクリプト**、および **訂正・補足情報（PDF）** を公開しています。  
+学習・実習・授業用に自由にご利用ください。
 
 ---
 
-## 📑 訂正・補足情報
-本書の訂正情報は次のPDFでご確認ください。  
-👉 [訂正情報（PDF）](./docs/nme_2025.pdf)
+## 📂 ダウンロード
 
-本書の第13章の補足情報です。  
-👉 [第13章補足情報（PDF）](./docs/chap_13_supplementary.pdf)
+### 🔹 データファイル
+<a href="data/condo.csv" download>🏙️ condo.csv（マンション価格データ）</a><br>
+<a href="data/df_train.csv" download>📊 df_train.csv（第13章演習用データ）</a><br>
+<a href="data/stock.csv" download>💹 stock.csv（株価データ）</a>
 
 ---
 
+### 🔹 Rスクリプト
+<a href="scripts/Rscript_Chaps9-14.R" download>📘 Rscript_Chaps9-14.R（第9〜14章実行用スクリプト）</a>
+
+---
+
+### 🔹 訂正情報
+<a href="docs/errata.pdf" download>📝 訂正情報（PDF版）をダウンロード</a>
+
+---
+
+## 📚 フォルダ構成
+
+- data/ ... CSVデータ（例：condo.csv, stock.csv, df_train.csv）
+- scripts/ ... Rスクリプト（Rscript_Chaps9-14.R）
+- docs/ ... 訂正情報PDFなど
+- assets/ ... 画像ファイル・CSSファイル
+- index.md ... GitHub Pages用トップページ
