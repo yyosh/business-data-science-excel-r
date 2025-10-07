@@ -23,8 +23,8 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 **『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）**  
 の読者向けサポートページです。  
 
-書籍中で使用している **データ（CSV）**、**Rスクリプト**、および **訂正・補足情報（PDF）** を公開しています。  
-学習・実習・授業用に自由にご利用ください。
+書籍中で使用している **データ（CSVファイル）**、**Rスクリプト**、および **訂正情報・補足資料** を公開しています。  
+
 
 ---
 
@@ -35,7 +35,6 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 <a href="data/condo.csv" download>🏙️ condo.csv（中古マンションデータ）</a><br>
 <a href="data/df_train.csv" download>📊 df_train.csv（第13章ローンデータ）</a>
 
-
 ---
 
 ### 🔹 Rスクリプト
@@ -44,8 +43,8 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 ---
 
 ### 🔹 訂正情報・補足資料
-<a href="docs/nme_2025.pdf" download>📝 訂正情報（PDF版）をダウンロード</a><br>
-<a href="docs/chap_13_supplementary.pdf" download>📝 補足資料（PDF版）をダウンロード</a>
+<a href="docs/nme_2025.pdf" download>📝 訂正情報（12.2節 nme.csv の作成について、PDF版）をダウンロード</a><br>
+<a href="docs/chap_13_supplementary.pdf" download>📝 第13章 補足資料（PDF版）をダウンロード</a>
 
 
 ## 📚 フォルダ構成
