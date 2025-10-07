@@ -1,0 +1,107 @@
+/* =========================================
+   Web書籍風カスタムスタイル（日本語フォント統一）
+   for GitHub Pages (minima)
+   ========================================= */
+
+/* --- 全体の基本設定 --- */
+body {
+  font-family: "Noto Sans JP", "游ゴシック体", "Yu Gothic", "メイリオ", sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #222;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 900px;
+}
+
+/* --- 見出し調整 --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans JP", "游ゴシック体", "Yu Gothic", sans-serif;
+  font-weight: 600;
+  color: #111;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 26px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 6px;
+}
+h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+h3 {
+  font-size: 19px;
+}
+h4 {
+  font-size: 17px;
+}
+
+/* --- 段落 --- */
+p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+/* --- リスト --- */
+ul, ol {
+  font-size: 17px;
+  margin-left: 1.5em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+/* --- 表 --- */
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+  margin: 1em 0;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+}
+th {
+  background-color: #f7f7f7;
+}
+
+/* --- コード・引用 --- */
+code, pre {
+  font-family: "Consolas", "Source Code Pro", monospace;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: #444;
+}
+pre {
+  padding: 10px;
+  overflow-x: auto;
+}
+
+/* --- リンク --- */
+a {
+  color: #005bbb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #003f88;
+}
+
+/* --- ページタイトルの間隔調整 --- */
+.page-content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* --- フッター文字小さめに統一 --- */
+.site-footer {
+  font-size: 14px;
+  color: #666;
+}
