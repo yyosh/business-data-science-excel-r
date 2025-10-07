@@ -1,16 +1,16 @@
 ## ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートリポジトリ
 
-本リポジトリは、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）** の読者向けサポートページです。  
+本リポジトリでは、書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）** の読者向けに  
 本書で使用しているデータ（CSVファイル）、Rスクリプト、訂正・補足情報を公開しています。
 
 ---
 
-## 🌐 公開サイト（GitHub Pages）
+## 🌐 公開ウェブサイト（GitHub Pages）
 
-📎 サポートサイトはこちら  
+📎 より見やすいサポートサイトはこちら  
 ➡️ **[https://yyosh.github.io/business-data-science-excel-r/](https://yyosh.github.io/business-data-science-excel-r/)**
 
-本書で使用しているデータ（CSVファイル）、Rスクリプト、訂正・補足情報をまとめて公開しています。
+本リポジトリと同じ情報をダウンロードしやすく公開しています。
 
 ---
 
@@ -28,7 +28,7 @@
 ---
 
 ## 📂 フォルダ構成
-- `data/`：CSVデータ（stock.csv, condo.csv, df_train.csv）  
+- `data/`：データ（stock.csv, condo.csv, df_train.csv）  
 - `scripts/`：Rスクリプト（Rscript_Chaps9-14.R）  
 - `docs/`：訂正情報・補足資料など  
 - `assets/`：画像ファイル  
