@@ -27,3 +27,6 @@ kramdown:
 show_excerpts: true
 permalink: pretty
 timezone: Asia/Tokyo
+
+include:
+  - assets/css/style.css
