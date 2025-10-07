@@ -28,8 +28,11 @@
 ---
 
 ## 📂 フォルダ構成
-data/ ... CSVデータ（例：condo.csv, stock.csv, df_train.csv）
-scripts/ ... Rスクリプト（Rscript_Chaps9-14.R）
-docs/ ... 訂正情報PDFなど
-assets/ ... 画像ファイル
-index.md ... GitHub Pages用トップページ
+## 📂 フォルダ構成（リスト形式）
+
+- `data/`：CSVデータ（例：condo.csv, stock.csv, df_train.csv）  
+- `scripts/`：Rスクリプト（Rscript_Chaps9-14.R）  
+- `docs/`：訂正情報PDFなど  
+- `assets/`：画像ファイル  
+- `index.md`：GitHub Pages用トップページ  
+
