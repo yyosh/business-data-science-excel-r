@@ -1,10 +1,10 @@
 /* =========================================
-   最終デザイン版 CSS
-   統一フォント・中央タイトル・青系アクセント
-   for GitHub Pages (minima)
+   GitHub Pages 最終統一デザイン版 CSS
+   日本語フォント統一＋青系アクセント＋文字サイズ統一
+   for 'ExcelとRで学ぶビジネスデータサイエンス入門'
    ========================================= */
 
-/* --- 全体の基本設定 --- */
+/* --- 全体設定 --- */
 body {
   font-family: "Noto Sans JP", "游ゴシック体", "Yu Gothic", "メイリオ", sans-serif;
   font-size: 17px;
@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   margin-top: 1.8em;
   margin-bottom: 0.7em;
-  color: #0d2b63; /* 落ち着いた青系 */
+  color: #0d2b63;
 }
 
-/* メインタイトル（中央・下線付き） */
+/* メインタイトル（中央配置＋青下線） */
 h1 {
   text-align: center;
   font-size: 28px;
@@ -35,16 +35,19 @@ h1 {
   margin-bottom: 1.5em;
 }
 
-/* 中見出し（左寄せ・淡い罫線） */
+/* 中見出し・小見出し（階層差を抑えて統一感を出す） */
 h2 {
-  font-size: 22px;
+  font-size: 21px;
   border-bottom: 1px solid #cbd6ec;
   padding-bottom: 4px;
 }
-
-/* 小見出し */
 h3 {
   font-size: 19px;
+  margin-top: 1.4em;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 1.2em;
 }
 
 /* --- 段落・リスト --- */
@@ -53,10 +56,11 @@ p {
   margin-bottom: 0.8em;
 }
 ul, ol {
-  font-size: 17px;
+  font-size: 17px !important;
+  line-height: 1.6;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
   margin-left: 1.5em;
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
 }
 
 /* --- 表 --- */
@@ -74,18 +78,21 @@ th {
   background-color: #f5f8ff;
 }
 
-/* --- コードブロック --- */
+/* --- コード・フォルダ構成ブロック --- */
 code, pre {
   font-family: "Consolas", "Source Code Pro", monospace;
-  font-size: 15px;
-  background-color: #f8f8f8;
-  color: #333;
+  font-size: 16px !important;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
   border-radius: 5px;
 }
 pre {
-  padding: 10px;
+  padding: 10px 12px;
   overflow-x: auto;
   border-left: 4px solid #c8d8f0;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 /* --- リンク --- */
@@ -106,7 +113,7 @@ img {
   height: auto;
 }
 
-/* --- ページ余白調整 --- */
+/* --- ページ余白 --- */
 .page-content {
   margin-top: 2em;
   margin-bottom: 2em;
