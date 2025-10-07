@@ -31,8 +31,8 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 ## 📂 ダウンロード
 
 ### 🔹 データファイル
-<a href="data/condo.csv" download>🏙️ condo.csv（マンション価格データ）</a><br>
-<a href="data/df_train.csv" download>📊 df_train.csv（第13章演習用データ）</a><br>
+<a href="data/condo.csv" download>🏙️ condo.csv（中古マンションデータ）</a><br>
+<a href="data/df_train.csv" download>📊 df_train.csv（第13章ローンデータ）</a><br>
 <a href="data/stock.csv" download>💹 stock.csv（株価データ）</a>
 
 ---
@@ -42,9 +42,9 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 
 ---
 
-### 🔹 訂正情報
-<a href="docs/errata.pdf" download>📝 訂正情報（PDF版）をダウンロード</a>
-
+### 🔹 訂正情報・補足資料
+<a href="docs/nme_2025.pdf" download>📝 訂正情報（PDF版）をダウンロード</a>
+<a href="docs/chap_13_supplementary.pdf" download>📝 補足資料（PDF版）をダウンロード</a>
 ---
 
 ## 📚 フォルダ構成
