@@ -28,9 +28,8 @@
 ---
 
 ## 📂 フォルダ構成
-business-data-science-excel-r/
-├─ data/ # CSVデータ（condo.csv, stock.csv, df_train.csv など）
-├─ scripts/ # Rスクリプト（Rscript_Chaps9-14.R など）
-├─ docs/ # 訂正情報PDFなど
-├─ assets/ # 画像ファイル
-└─ index.md # GitHub Pages 用トップページ
+data/ ... CSVデータ（例：condo.csv, stock.csv, df_train.csv）
+scripts/ ... Rスクリプト（Rscript_Chaps9-14.R）
+docs/ ... 訂正情報PDFなど
+assets/ ... 画像ファイル
+index.md ... GitHub Pages用トップページ
