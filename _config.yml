@@ -1,23 +1,22 @@
-# サイトの基本情報
-title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト
-description: 書籍『ExcelとRで学ぶビジネスデータサイエンス入門』の公式サポートページです。CSVデータやRスクリプト，訂正情報などを公開します。
-
-# GitHub Pagesのテーマ
+title: "ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト"
+description: "『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）の読者向け補足資料・データ・Rスクリプトを公開するサポートページです。"
 theme: minima
 
-# リポジトリ名に合わせた baseurl
+# サイトの公開URL
+url: "https://yyosh.github.io"
 baseurl: "/business-data-science-excel-r"
 
-# 著者情報
-author:
-  name: "吉田 靖"
- 
-# Markdownエンジン
-markdown: kramdown
-
-# ナビゲーション（オプション）
-# minima テーマでは header_pages に指定した Markdown をメニューに表示できます
+# ヘッダーメニューに表示するページ
 header_pages:
   - index.md
   - data/README.md
   - scripts/README.md
+  - docs/README.md
+
+# 日本語でも文字化けしないように
+encoding: "utf-8"
+
+# Markdown拡張機能
+markdown: kramdown
+kramdown:
+  input: GFM
