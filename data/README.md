@@ -14,7 +14,7 @@ title: データファイルの解説
 | ファイル名      | 説明                                       |  利用箇所                         |
 |-----------------|-------------------------------------------|----------------------------------|
 | `stock.csv`     | S&P500、アルファベット、エクソンの月次データ　| 2.3節　3.4節　5.1節　5.4節　5.5節 |
-| `condo.csv`     | 中古マンションデータ                        |　9.5節　10.1節                    |
+| `condo.csv`     | 中古マンションデータ                        | 9.5節　10.1節                    |
 | `df_train.csv`  | ローンデータ                               | 13.2節                           |
 
 ---
@@ -22,7 +22,7 @@ title: データファイルの解説
 ## 📖 データの出典
 - stock.csv　S&P Global Capital IQ
 - condo.csv 　国土交通省　不動産情報ライブラリ　https://www.reinfolib.mlit.go.jp/
-- df_train.csv　 R コマンドhelp(loans full schema) を実行して参照してください．
+- df_train.csv　 R のopenintro パッケージ。　詳細はp.180の R コマンドhelp(loans full schema) を実行して参照してください．
 ---
 
 ## ⚖️ ライセンス
