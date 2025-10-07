@@ -6,7 +6,7 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポ�
 # ExcelとRで学ぶビジネスデータサイエンス入門 ― サポートサイト
 
 本サイトは書籍 **『ExcelとRで学ぶビジネスデータサイエンス入門』** の公式サポートページです。  
-演習用データ（CSVファイル）やRスクリプト、訂正情報（正誤表）を公開し、学習をサポートします。  
+本書で使用しているデータ（CSVファイル）やRスクリプト、訂正情報（正誤表）を公開し、学習をサポートします。  
 
 ---
 
@@ -50,16 +50,8 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門 ― サポ�
 本書の訂正情報（正誤表）は以下のPDFでご確認ください。  
 👉 [訂正情報（PDF）](./docs/errata.pdf)
 
+本書の第13章の補足情報です。  
+👉 [補足情報（PDF）](./docs/chap_13_supplementary.pdf)
+
 ---
 
-## 🚀 利用方法（Rから読み込む例）
-```r
-library(readr)
-base <- "https://yyosh.github.io/business-data-science-excel-r"
-
-# 株価データと不動産データの例
-stock <- read_csv(paste0(base, "/data/stock.csv"))
-condo <- read_csv(paste0(base, "/data/condo.csv"))
-df_train <- read_csv(paste0(base, "/data/df_train.csv"))
-
-head(stock)
