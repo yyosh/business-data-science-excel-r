@@ -11,7 +11,7 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 
 <p align="center">
   <a href="https://www.kspub.co.jp/book/detail/5411339.html" target="_blank" style="background-color:#2f63b3; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:600;">
-    📘 出版社ページへ（講談社サイエンティフィク）
+    📘 出版社ページへ（講談社）
   </a>
 </p>
 
@@ -20,7 +20,7 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 ## 📖 このサイトについて
 
 本サイトは、書籍  
-**『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社サイエンティフィク）**  
+**『ExcelとRで学ぶビジネスデータサイエンス入門』（講談社）**  
 の読者向けサポートウェブサイトです。  
 
 書籍中で使用している **データ（CSVファイル）**、**Rスクリプト**、および **訂正情報・補足資料** を公開しています。  
