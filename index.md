@@ -10,7 +10,7 @@ title: ExcelとRで学ぶビジネスデータサイエンス入門
 </div>
 
 <p align="center">
-  <a href="https://www.kspub.co.jp/book/detail/5411339.html" target="_blank" style="background-color:#2f63b3; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:600;">
+  <a href="https://www.kodansha.co.jp/book/products/0000419159" target="_blank" style="background-color:#2f63b3; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:600;">
     📘 出版社ページへ（講談社）
   </a>
 </p>
