@@ -1,7 +1,8 @@
 ---
-layout: docs
+layout: page
 title: "正誤表"
 date: 2025-10-26
+permalink: /docs/errata/
 ---
 **おわびと共に訂正いたします．**
 
@@ -15,3 +16,4 @@ date: 2025-10-26
 　　　　正：  分散
 
 ```
+
