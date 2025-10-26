@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "正誤情報（第9章 p.128）"
 date: 2025-10-26
 ---
