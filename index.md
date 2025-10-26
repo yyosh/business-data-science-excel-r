@@ -49,7 +49,7 @@ R-4.4.1パッケージなどのバージョンは本文参照
 ---
 
 ### 🔹 訂正情報・補足資料
-<a href="docs/errata.md">📝 正誤表</a><br>
+<a href="docs/errata/">📝 正誤表</a><br>
 <a href="docs/nme_2025.pdf" download>📝 訂正情報（12.2節 nme.csv の作成について、PDF版）</a><br>
 <a href="docs/chap_13_supplementary.pdf" download>📝 第13章 補足資料（PDF版）</a>
 
