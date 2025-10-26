@@ -6,6 +6,7 @@
 ---
 
 ## 📑 訂正情報
+- [errata.md](./errata.md)
 - [nme_2025.pdf](./nme_2025.pdf)  
     
 ---
