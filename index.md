@@ -48,7 +48,8 @@ R-4.4.1パッケージなどのバージョンは本文参照
 
 ---
 
-### 🔹 訂正情報・補足資料
+### 🔹 訂正情報・補足資料・書評など
+<a href="https://www.saa.or.jp/learning/journal/each_title/2026/07.html">📝 証券アナリストジャーナル2026年7月号（第64巻第7号）証券アナリスト読書室</a>に採り上げて頂きました。田村浩道先生、どうもありがとうございます！（インターネットでの閲覧は日本証券アナリスト協会会員のみです。大学の図書館などにはあるかもしれません。）<br>
 <a href="docs/errata/">📝 正誤表</a><br>
 <a href="docs/nme_2025.pdf" download>📝 訂正情報（12.2節 nme.csv の作成について、PDF版）</a><br>
 <a href="docs/chap_13_supplementary.pdf" download>📝 第13章 補足資料（PDF版）</a>
